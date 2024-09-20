@@ -8,7 +8,6 @@
 # Configuration options here apply to all worlds, unless you specify overrides inside
 # the world-specific config file inside each world folder.
 #
-# Fork by Alpha018
 # Docs: https://docs.papermc.io/
 # Discord: https://discord.gg/papermc
 # Website: https://papermc.io/
@@ -167,7 +166,7 @@ entities:
         diorite: 900
         dirt: 900
         granite: 900
-        grass: 900
+        grass_block: 900
         gravel: 900
         jungle_leaves: 900
         kelp: 900
