@@ -22,7 +22,7 @@ settings:
   user-cache-size: 9999999
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
-  netty-threads: 6
+  netty-threads: 2
   attribute:
     maxHealth:
       max: 2048.0
@@ -42,7 +42,7 @@ messages:
 advancements:
   disable-saving: true
   disabled:
-    - '*'
+    - "*"
 world-settings:
   default:
     seed-trialchambers: 94251327
@@ -51,10 +51,10 @@ world-settings:
     merge-radius:
       item: 4.0
       exp: 6.0
-    view-distance: default
-    simulation-distance: default
-    mob-spawn-range: 2
-    item-despawn-rate: 5000
+    view-distance: 5
+    simulation-distance: 5
+    mob-spawn-range: 4
+    item-despawn-rate: 2500
     arrow-despawn-rate: 300
     trident-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
@@ -179,4 +179,4 @@ players:
 config-version: 12
 stats:
   disable-saving: false
-  forced-stats: { }
+  forced-stats: {}
